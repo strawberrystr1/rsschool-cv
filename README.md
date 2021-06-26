@@ -1,2 +1,2 @@
 # rsschool-cv
-cv
+https://strawberrystr1.github.io/rsschool-cv/cv
