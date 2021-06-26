@@ -12,6 +12,7 @@ html {
 
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 
@@ -474,4 +475,16 @@ footer {
     font-family: 'Shrikhand', cursive;
     font-size: 50px;
     margin: 0;
+}
+
+@media screen and (max-width: 1460px) {
+    .wrapper {
+        width: 1200px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .wrapper {
+        width: 1000px;
+    }
 }
