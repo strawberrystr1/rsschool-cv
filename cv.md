@@ -7,6 +7,7 @@ Email: andreishakhs@gmail.com
 Phone: +375336464077
 
 VK: [Вконтакте](https://vk.com/feukoo)
+GitHub: [GitHub](https://github.com/strawberrystr1/)
 
 ### Information about Me
 
