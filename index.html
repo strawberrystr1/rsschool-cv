@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <img src="./rac.jpg" alt="photo" class="photo"></img>
+            <div class="name-container">
+                <h1 class="name">Andrei Shakh</h1>
+                <h3 class="job">Frontend Developer</h3>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <aside>
+                <div class="contact">
+                    <p class="paragraph">Contacts</p>
+                    <ul>
+                        <li class="mail">andreishakhs@gmail.com</li>
+                        <li class="phone">+375336464077</li>
+                        <li class="vk"><a href="https://vk.com/feukoo">Вконтакте</a></li>
+                        <li class="github"><a href="https://github.com/strawberrystr1">Git Hub</a></li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <p class="paragraph">Skills</p>
+                    <div class="progress">
+                        <ul>
+                            <li>HTML - Basic</li>
+                            <li>CSS - Basic</li>
+                            <li>JS - Basic</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="languages">
+                    <p class="paragraph">Languages</p>
+                    <div class="rus">
+                        Russian (Native)
+                        <div class="first"><div></div></div>
+                    </div>
+                    <div class="eng">
+                        English (Intermediate)
+                        <div class="second"><div></div></div>
+                    </div>
+                </div>
+            </aside>
+            <section class="main-content">
+                <div class="info">
+                    <p class="paragraph">Information about Me</p>
+                    <p class="self-info">
+                        My name is Andrey, 24 years old. I come to this course because i’m interesting in JS. I have tried to learn it few month ago but then i burned out and abandoned it until this day. Now i wanna try it again with new motivation, new strength and a new wish. I’m fast learning in things which interesting for me. JS interesting for me especially.
+                    </p>
+                </div>
+                <div class="education">
+                    <p class="paragraph">Experience and education</p>
+                    <p class="self-info">I haven’t worked in IT, just did little projects for myself. I have finished JS course in Glo-Academy and few little courses on You-Tube. There is a little project: <a href="https://github.com/strawberrystr1/studyJS">calculator</a>.</p>
+                </div>
+                <div class="code">
+                    <p class="paragraph">Code example</p>
+                    <div class="code-ex">
+                        <code>
+                            function createRandomCircle () { <br>
+                                &nbsp;&nbsp;&nbsp;const circle = document.createElement('div')<br>
+                                &nbsp;&nbsp;&nbsp;const size = getRandomSize(10, 60)<br>
+                                &nbsp;&nbsp;&nbsp;const {width, height} = board.getBoundingClientRect()<br>
+                                &nbsp;&nbsp;&nbsp;const x = getRandomSize(0, width - size)<br>
+                                &nbsp;&nbsp;&nbsp;const y = getRandomSize(0, height - size)<br>
+                                &nbsp;&nbsp;&nbsp;circle.style.top = `${y}px`<br>
+                                &nbsp;&nbsp;&nbsp;circle.style.left = `${x}px`<br>
+                                &nbsp;&nbsp;&nbsp;circle.classList.add('circle')<br>
+                                &nbsp;&nbsp;&nbsp;circle.style.width = `${size}px`<br>
+                                &nbsp;&nbsp;&nbsp;circle.style.height = `${size}px`<br>
+                                &nbsp;&nbsp;&nbsp;circle.style.background = `rgba(${getRandomColor()},${getRandomColor()},${getRandomColor()}, 0.8)`<br>
+                                &nbsp;&nbsp;&nbsp;board.append(circle)<br>
+                            }
+                        </code>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper footer">
+            <a href="https://rs.school/js/" class="rs"></a>
+            <a href="https://github.com/strawberrystr1" class="git"></a></li>
+            <p>2021</p>
+        </div>
+    </footer>
+</body>
+</html>
